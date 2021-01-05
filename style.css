@@ -138,3 +138,30 @@
   margin-top: 1px;
   text-align: left;
 }
+.entertainment-card{
+  height: 30vh;
+  width: 30.7vh;
+  border-radius: 10px;
+  background-color: rgb(50, 190, 255);
+  margin-top: 5vh;
+  margin-left: 2vw;
+  cursor: pointer;
+}
+.entertainment-card p{
+  color:white;
+  font-size: 18px;
+  margin-top: -8vh;
+  text-align: center;
+}
+.entertainment-card h3{
+  color:white;
+  text-align: center;
+  font-size: 30px;
+  padding: 10vh 0;
+}
+.align-entertainment-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0 2vw;
+}
