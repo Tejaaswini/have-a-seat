@@ -8,7 +8,6 @@
 .header-container {
   background-color: #0d0d0d;
   height: 10vh;
-  position: sticky;
 }
 .header-button {
   width: 8vw;
@@ -62,8 +61,8 @@
   cursor: pointer;
   margin-top: 1vh;
 }
-.subHeader-link a:hover{
-  color:rgb(223, 223, 223);
+.subHeader-link a:hover {
+  color: rgb(223, 223, 223);
 }
 .header-logo {
   color: white;
@@ -81,8 +80,9 @@
 }
 .align-location img {
   width: 8vw;
+  cursor: pointer;
 }
-.align-location img:hover{
+.align-location img:hover {
   transform: scale(1.2);
 }
 .location-div h2 {
@@ -91,10 +91,50 @@
 }
 .location-div {
   background-color: rgb(241, 241, 241);
-  height: 32vh;
+  height: 34vh;
   padding: 10px 0;
 }
 .align-location p {
   text-align: center;
   margin-top: 1vh;
+}
+.recomended-card {
+  height: 50vh;
+  width: 30.7vh;
+  border-radius: 10px;
+  background-color: rgb(0, 0, 0);
+  margin-top: 5vh;
+  margin-left: 2vw;
+  cursor: pointer;
+}
+.recomended-card:hover {
+  transform: scale(1.1);
+}
+.recomended-card img{
+  width:15vw;
+  border-radius: 10px;
+}
+.align-recom h2{
+  margin: 8vh 0 0 15vw;
+}
+.recomended-card-content h3{
+  margin-left: 2vw;
+  margin-top: 3vh;
+}
+.recomended-card-content p{
+  margin-left: 2vw;
+  margin-top: 1vh;
+  font-size: 18px;
+  color:grey;
+  font-weight: 500;
+}
+.align-recomend-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap:0 2vw;
+}
+.recomended-card p{
+  margin-top: 1px;
+  text-align: left;
 }
