@@ -164,4 +164,32 @@
   flex-direction: row;
   justify-content: center;
   gap: 0 2vw;
+  padding-bottom: 10vh;
+}
+.footer{
+  background-color: black;
+}
+.footer p{
+  padding:40px 0;
+  color:white;
+  text-align: center;
+}
+.align-sec-header{
+  display: flex;
+  flex-direction: row;
+  gap: 0 50vw;
+}
+.align-sec-header p{
+  margin-top: 4vw;
+  cursor: pointer;
+}
+.align-footer-links{
+  display: flex;
+  justify-content: center;
+  gap: 0 40px;
+  padding-bottom: 5vh;
+}
+.align-footer-links img{
+  width: 20px;
+  cursor: pointer;
 }
