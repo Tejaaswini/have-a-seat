@@ -193,3 +193,50 @@
   width: 20px;
   cursor: pointer;
 }
+.banner img{
+  border-radius: 10px;
+}
+.banner{
+  display: flex;
+  flex-direction: row;
+  padding: 10vh 20vw;
+  gap: 0 5vw;
+}
+.banner-desc{
+  display: flex;
+  gap: 3vh 0;
+  flex-direction: column;
+  text-align: justify;
+  text-justify: inter-word;
+  padding-right: 2vw;
+}
+.banner h3{
+  color:grey;
+}
+.banner p{
+  color:rgb(44, 44, 44);
+}
+.banner button{
+  width: 8vw;
+  height: 5vh;
+  font-size: 14px;
+  border-radius: 3px;
+  background-color: #ff8e3c;
+  color: white;
+  border: none;
+  margin-right: 10vw;
+  cursor: pointer;
+}
+
+table {
+  position: relative;
+  left: 350px;
+  width: 600px;
+  border-spacing: 0.5rem;
+  margin: 10px;
+  border: solid #ff8e3c;
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+}
+
