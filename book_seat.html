@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div>
+    <div class="seats">
         <table id="Seats">
             <thead>
+                <h1>Choose Your Seat</h1>
                 <tr>
-                    <th colspan=5>SCREEN</th>
+                    <th colspan=5>SCREEN THIS WAY</th>
                 </tr>
             </thead>
             <tbody>
@@ -21,14 +22,58 @@
             </tbody>
             <tfoot>
                 <tr>
-                    <td class="RowAlpha">G.C.</td>
+                    <td class="RowAlpha">A</td>
                     <td class="GoldSeat" id="G.C.1">1</td>
-                    <td class="GoldSeat" id="G.C.2">2</td>
-                    <td class="GoldSeat" id="G.C.3">3</td>
+                    <td class="SeatBooked" id="G.C.2">2</td>
+                    <td class="SeatBooked" id="G.C.3">3</td>
                     <td class="GoldSeat" id="G.C.4">4</td>
+                </tr>
+                <tr>
+                    <td class="RowAlpha">B</td>
+                    <td class="BookSeat" id="G.C.1">1</td>
+                    <td class="SeatBooked" id="G.C.2">2</td>
+                    <td class="SeatBooked" id="G.C.3">3</td>
+                    <td class="SeatBooked" id="G.C.4">4</td>
+                </tr>
+                <tr>
+                    <td class="RowAlpha">C</td>
+                    <td class="BookSeat" id="G.C.1">1</td>
+                    <td class="BookSeat" id="G.C.2">2</td>
+                    <td class="SeatBooked" id="G.C.3">3</td>
+                    <td class="SeatBooked" id="G.C.4">4</td>
+                </tr>
+                <tr>
+                    <td class="RowAlpha">D</td>
+                    <td class="BookSeat" id="G.C.1">1</td>
+                    <td class="BookSeat" id="G.C.2">2</td>
+                    <td class="SeatBooked" id="G.C.3">3</td>
+                    <td class="SeatBooked" id="G.C.4">4</td>
+                </tr>
+                <tr>
+                    <td class="RowAlpha">E</td>
+                    <td class="BookSeat" id="G.C.1">1</td>
+                    <td class="BookSeat" id="G.C.2">2</td>
+                    <td class="BookSeat" id="G.C.3">3</td>
+                    <td class="BookSeat" id="G.C.4">4</td>
                 </tr>
             </tfoot>
         </table>
+    </div>
+    <div class="seats-info">
+        <div class="GoldSeat">
+            <h3>Golden Seat</h3>
+        </div>
+        <div class="SeatBooked">
+            <h3>Booked Seat</h3>
+        </div>
+        <div class="BookSeat">
+            <h3>Empty Seat</h3>
+        </div>
+    </div>
+    <div class="seat-btn">
+        <a href="payment.html">
+            <button>Proceed</button>
+        </a>
     </div>
 </body>
 </html>
